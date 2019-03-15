@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='5.0' target-platform='ios' executeOnSourceChanges='false'>
-    <timeline fileName='timeline.xctimeline'/>
+<playground version='6.0' target-platform='ios' display-mode='rendered' executeOnSourceChanges='false'>
+    <pages>
+        <page name='0. Welcome'/>
+        <page name='1. Foundation'/>
+        <page name='2. ICU transforms '/>
+        <page name='3. Transliteration'/>
+        <page name='4. Casting'/>
+        <page name='5. Normalization'/>
+        <page name='6. Filtering'/>
+        <page name='7. Encoding'/>
+        <page name='8. Finish word'/>
+    </pages>
 </playground>
