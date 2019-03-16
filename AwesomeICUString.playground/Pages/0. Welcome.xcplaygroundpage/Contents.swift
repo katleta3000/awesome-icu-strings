@@ -1,7 +1,7 @@
 /*:
 # Welcome to AwesomeICUString playground.
 
-* Created by [Evgeny Rtishev](https://github.com/katleta3000)
+* Created by [Evgenii Rtishchev](https://github.com/katleta3000)
 
 This playground shows the power of ICU transformations using String.applyingTransform function and explains some keypoints about String characteristics and representations.
 
@@ -13,9 +13,5 @@ See more:
 * https://unicode.org/reports/tr44/#General_Category_Values
 * https://github.com/apple/swift/blob/master/stdlib/public/core/String.swift
 * https://developer.apple.com/documentation/foundation/nsstring/1407787-applyingtransform
-
-&nbsp;
-
 */
-
 //: [Next](@next)

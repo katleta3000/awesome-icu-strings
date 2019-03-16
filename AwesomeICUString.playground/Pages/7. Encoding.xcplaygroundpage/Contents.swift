@@ -1,6 +1,4 @@
-//: [Previous](@previous)
-
-import Foundation
+import UIKit
 
 /*:
 You've definetely had this problem if you worked with XML data from backend.
@@ -23,8 +21,7 @@ print(xmlString
 )
 
 /*:
-Or you may use power of NSAttributedString, but please read carefully about performance problems and limitations:
-https://developer.apple.com/documentation/foundation/nsattributedstring/1524613-init
+Or you may use power of NSAttributedString, but please read carefully about performance problems and limitations [here](https://developer.apple.com/documentation/foundation/nsattributedstring/1524613-init).
 */
 
 let data = xmlString.data(using: .utf8)!

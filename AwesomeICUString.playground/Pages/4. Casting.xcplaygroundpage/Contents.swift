@@ -1,9 +1,7 @@
-//: [Previous](@previous)
-
 /*:
 For upper and lower transform prefer using lowercased() and uppercased() functions in Swift.
 Complexity of these operations are O(n).
-You may find some intresting details here: https://github.com/apple/swift/blob/master/stdlib/public/core/String.swift
+You may find some intresting details [here](https://github.com/apple/swift/blob/master/stdlib/public/core/String.swift)
 */
 
 import Foundation

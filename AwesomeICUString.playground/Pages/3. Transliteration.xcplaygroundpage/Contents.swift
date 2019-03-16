@@ -1,9 +1,7 @@
-//: [Previous](@previous)
-
 import Foundation
 
 /*:
-You may try differenet transforms using online converter on ICU site: http://demo.icu-project.org/icu-bin/translit
+You may try differenet transforms using [online converter](http://demo.icu-project.org/icu-bin/translit) on ICU site.
 */
 
 print("иванов иван иванович".applyingTransform(.toLatin, reverse: false) ?? "none")

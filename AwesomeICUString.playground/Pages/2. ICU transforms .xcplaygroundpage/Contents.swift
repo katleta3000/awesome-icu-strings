@@ -1,10 +1,8 @@
-//: [Previous](@previous)
-
 import Foundation
 
 /*:
-Many string and unicode transformations use ICU on the low level. iOS system includes libICU.
-You may use some ICU (http://site.icu-project.org/) transforms via String.applyingTransform.
+Many strings and unicode transformations use ICU on the low level. iOS system includes libICU.
+You may use some [ICU](http://site.icu-project.org/) transforms via String.applyingTransform.
 */
 
 if let transcriptesString = "матрёшка".applyingTransform(.toLatin, reverse: false) {
@@ -14,8 +12,7 @@ if let transcriptesString = "матрёшка".applyingTransform(.toLatin, rever
 print("🌍".applyingTransform(.toUnicodeName, reverse: false) ?? "🌍")
 
 /*:
-There are 16 standart transforms, but there are many others if you just create your own rule
-according to the ICU standart.
+There are 16 standart transforms (you may find them [here](https://developer.apple.com/documentation/foundation/stringtransform), but there are many others if you just create your own rule according to the ICU standart.
 Let's add the category below for demonstating true power of ICU transforms.
 
 ````
